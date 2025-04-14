@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Nov 22 11:31:59 2024
-
-@author: v.fountas
-"""
 
 import requests
 import json
@@ -13,7 +7,7 @@ import threading
 from flask import Flask, request, jsonify
 
 # Tago.io Configuration
-device_token = '48651b69-0da1-42f1-9c1b-a8333bccd451'  # Replace with your Tago.io device token
+device_token = '<DEVICE_TOKEN>'  # Replace with your Tago.io device token
 url = "https://api.tago.io/data"  # Tago.io API URL for posting data
 
 # Thresholds for conditions
